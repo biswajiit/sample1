@@ -12,6 +12,6 @@ public class HomeController {
 
 	@GetMapping(value="/detail")
 	public void getDetail() {
-		LOGGER.info("inside getDetail method call");
+		LOGGER.info("inside getDetail method call..");
 	}
 }
